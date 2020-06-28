@@ -1,7 +1,7 @@
 require 'spec_helper'
 feature 'Image test' do
   scenario 'See Page' do
-    sleep(5)
+    sleep(10)
     visit "http://env:3000/"
     expect(page).to have_content 'File'
     expect(page).to have_content 'Selection'
