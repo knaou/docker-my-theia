@@ -10,7 +10,4 @@ if [ -d ~/.anyenv ]; then
 fi
 EOF
 yes | ~/.anyenv/bin/anyenv install --init
-~/.anyenv/bin/anyenv install pyenv
-~/.anyenv/bin/anyenv install rbenv
-~/.anyenv/bin/anyenv install nodenv
 
